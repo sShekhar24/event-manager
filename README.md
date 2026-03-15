@@ -56,6 +56,9 @@ All requirement specifications are in the `docs/` directory:
 | **[IMPLEMENTATION_DASHBOARD.md](IMPLEMENTATION_DASHBOARD.md)** | Project metrics & architecture |
 | **[SPRINT_1_2_SUMMARY.md](SPRINT_1_2_SUMMARY.md)** | What was accomplished in Sprint 1-2 |
 | **[DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md)** | Complete documentation index |
+| **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** | 📡 Complete API reference (22 endpoints) |
+| **[API_TESTING_GUIDE.md](API_TESTING_GUIDE.md)** | 🧪 Postman collection setup & testing guide |
+| **[postman_collection.json](postman_collection.json)** | 📮 Ready-to-import Postman collection |
 | [docs/INTRODUCTION.md](docs/INTRODUCTION.md) | Scope, definitions, audience |
 | [docs/OVERALL_DESCRIPTION.md](docs/OVERALL_DESCRIPTION.md) | Architecture, product overview |
 | [docs/SYSTEM_FEATURES.md](docs/SYSTEM_FEATURES.md) | 40+ feature specifications |
@@ -69,13 +72,41 @@ All requirement specifications are in the `docs/` directory:
 
 ---
 
-## 🚀 Getting Started by Role
+## � API Testing & Documentation
+
+### Quick Access for API Developers
+- **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** - Complete API reference with all 22 endpoints
+- **[API_TESTING_GUIDE.md](API_TESTING_GUIDE.md)** - Setup guide for Postman testing
+- **[postman_collection.json](postman_collection.json)** - Import directly into Postman
+
+### 22 Implemented Endpoints
+```
+🔐 Authentication (5)
+  - Register, Login, Refresh Token, Get User, Logout
+
+📅 Events (10)
+  - Create, Get, List, Search, Filter (Category/Date), Approve/Reject
+
+📝 Registrations (7)
+  - Register, Get, List, Cancel, Mark Attendance, Check Status
+```
+
+### How to Test
+1. Download Postman: https://postman.com/downloads/
+2. Import `postman_collection.json`
+3. Follow [API_TESTING_GUIDE.md](API_TESTING_GUIDE.md) for workflows
+
+---
+
+## �🚀 Getting Started by Role
 
 ### 👨‍💻 Backend Developer (Spring Boot)
 1. [docs/BACKEND_REQUIREMENTS.md](docs/BACKEND_REQUIREMENTS.md) - Spring Boot architecture & 25+ API endpoints
 2. [docs/DATABASE_REQUIREMENTS.md](docs/DATABASE_REQUIREMENTS.md) - MySQL schema
 3. [docs/SYSTEM_FEATURES.md](docs/SYSTEM_FEATURES.md) - Business logic requirements
 4. [docs/SYSTEM_WORKFLOW.md](docs/SYSTEM_WORKFLOW.md) - User workflows
+5. **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** - Full API reference with cURL examples
+6. **[API_TESTING_GUIDE.md](API_TESTING_GUIDE.md)** - Setup Postman for testing all endpoints
 
 ### 👨‍🎨 Frontend Developer (React)
 1. [docs/UI_REQUIREMENTS.md](docs/UI_REQUIREMENTS.md) - React component design & project structure
