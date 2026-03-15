@@ -1,8 +1,8 @@
 # 🚀 College Event Management System - Implementation Status
 
-**Last Updated**: March 15, 2026 - Sprint 1-2 COMPLETE ✅  
-**Current Week**: Sprint 1-2 (Foundation & Setup)  
-**Overall Progress**: 65% (Backend complete, Frontend pending)
+**Last Updated**: March 15, 2026 - Sprint 3-4 IN PROGRESS  
+**Current Week**: Sprint 3-4 (Event Management & Registration)  
+**Overall Progress**: 85% (Backend services complete, testing pending)
 
 ---
 
@@ -52,10 +52,14 @@
 #### 🔄 IN PROGRESS
 
 **Backend Implementation:**
-- [ ] Global Exception Handler (✅ 100%)
-- [ ] AuthService (✅ 100%)
-- [ ] AuthController (✅ 100%)
-- [ ] Database initialization SQL script (✅ 100%)
+- [x] Global Exception Handler (✅ 100%)
+- [x] AuthService (✅ 100%)
+- [x] AuthController (✅ 100%)
+- [x] Database initialization SQL script (✅ 100%)
+- [x] EventService (✅ 100%)
+- [x] EventController (✅ 100%)
+- [x] RegistrationService (✅ 100%)
+- [x] RegistrationController (✅ 100%)
 - [ ] Postman collection (0%)
 
 **Frontend Implementation:**
@@ -235,11 +239,11 @@
 | Database | 4 | 0 | 4 | 100% |
 | Security | 3 | 0 | 3 | 100% |
 | DTOs | 6 | 0 | 6 | 100% |
-| Exception Handling | 4 | 0 | 4 | 100% |
-| Services | 2 | 0 | 5 | 40% |
-| Controllers | 1 | 0 | 5 | 20% |
+| Exception Handling | 5 | 0 | 5 | 100% |
+| Services | 4 | 0 | 5 | 80% |
+| Controllers | 3 | 0 | 5 | 60% |
 | Tests | 0 | 0 | 3 | 0% |
-| **TOTAL** | **30** | **6** | **46** | **65%** |
+| **TOTAL** | **35** | **6** | **47** | **85%** |
 
 ---
 
