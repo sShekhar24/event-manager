@@ -1,0 +1,9 @@
+event-manager-service/target/
+event-manager-service/bin/
+event-manager-service/logs/
+event-manager-service/.settings/
+event-manager-service/.project
+event-manager-service/.classpath
+*.log
+*.class
+*.jar
